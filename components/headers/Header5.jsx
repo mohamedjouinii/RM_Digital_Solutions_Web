@@ -9,11 +9,11 @@ import addScrollspy from "@/utlis/addScrollSpy";
 
 const navLinks = [
   { href: "/", text: "Home", className: "current" },
-  { href: "#about", text: "About" },
+ 
   { href: "#service", text: "Service" },
   { href: "#projects", text: "Projects" },
   { href: "#team", text: "Meet The Team" },
-  { href: "#contact", text: "Contact With Us" },
+//  { href: "#contact", text: "Contact With Us" },
 ];
 
 export default function Header5({ btnClass = "btn-default btn-small round" }) {
@@ -101,15 +101,15 @@ export default function Header5({ btnClass = "btn-default btn-small round" }) {
 
           {/* Buttons and Mobile Menu */}
           <div className="col-lg-2 col-md-6 col-6">
-            <div className="header-right">
-              <div className="header-btn d-none d-xl-block">
+            <div className="header-right scrollSpyLinks">
+              <div className="header-btn d-none d-xl-block ">
                 <a
                   className={btnClass}
-                  target="_blank"
-                  href="https://themeforest.net/user/rainbow-themes/portfolio"
-                  rel="noreferrer"
+                 
+                  href="#contact"
+               
                 >
-                  Contact
+                  Contact  Us
                 </a>
               </div>
               <div className="mobile-menu-bar ml--5 d-block d-lg-none">
@@ -119,7 +119,7 @@ export default function Header5({ btnClass = "btn-default btn-small round" }) {
                   </button>
                 </div>
               </div>
-              <ModeSwitcher />
+             { /*<ModeSwitcher />*/}
             </div>
           </div>
         </div>
