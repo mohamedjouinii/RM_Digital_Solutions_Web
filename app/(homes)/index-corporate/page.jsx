@@ -37,7 +37,8 @@ export default function page() {
           <hr className="rbt-separator m-0" />
         </div>
       </div>
-      <About />
+      <About id="about" />
+
       <div className="rbt-separator-mid">
         <div className="container">
           <hr className="rbt-separator m-0" />

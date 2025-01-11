@@ -16,9 +16,10 @@ export default function Service() {
               data-sal-duration={700}
               data-sal-delay={100}
             >
-              <h2 className="title w-600 mb--20">Services provide for you.</h2>
+              <h2 className="title w-600 mb--20">Our Services</h2>
               <p className="description b1">
-                There are many variations of passages.
+                We’re confident that our services are just what your business
+                needs to grow and thrive.
               </p>
             </div>
           </div>
@@ -27,7 +28,9 @@ export default function Service() {
           {services3.map((service, index) => (
             <div
               key={index}
-              className="col-lg-4 col-md-6 col-sm-6 col-12"
+              className={`col-lg-4 col-md-6 col-sm-6 col-12 ${
+                index === 6 ? "mx-auto d-flex justify-content-center" : ""
+              }`}
               data-sal="slide-up"
               data-sal-duration={700}
               data-sal-delay={service.delay}

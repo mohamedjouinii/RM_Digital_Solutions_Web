@@ -48,48 +48,56 @@ export const services2 = [
 
 export const services3 = [
   {
-    icon: "feather-activity",
-    title: "Awarded Design",
+    icon: "feather-smartphone",
+    title: "Mobile App Development",
     description:
-      "There are many variations variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "Create intuitive mobile apps that deliver exceptional user experiences, keeping your customers engaged on the go.",
     delay: 0,
   },
   {
-    icon: "feather-map",
-    title: "Awarded Design",
+    icon: "feather-globe",
+    title: "Web Development",
     description:
-      "Passages there are many variations variations of of Lorem Ipsum available, but the majority have suffered.",
+      "Build secure, scalable, and high-performing websites that leave a lasting impression and drive conversions.",
     delay: 100,
   },
   {
-    icon: "feather-cast",
-    title: "Awarded Design",
+    icon: "feather-database",
+    title: "ERP Solutions",
     description:
-      "Variations There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "Streamline your operations with powerful ERP systems designed to enhance productivity and efficiency.",
     delay: 200,
   },
   {
-    icon: "feather-aperture",
-    title: "Office Management",
+    icon: "feather-search",
+    title: "SEO",
     description:
-      "Office Management are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
-    delay: 100,
-  },
-  {
-    icon: "feather-thermometer",
-    title: "HR Management",
-    description:
-      "HR Management are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
-    delay: 150,
+      "Boost your online visibility with advanced SEO strategies that drive traffic and grow your business.",
+    delay: 300,
   },
   {
     icon: "feather-award",
-    title: "Our Award",
+    title: "Branding",
     description:
-      "Our Tour are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
-    delay: 200,
+      "Establish a memorable brand identity with designs and messaging that resonate with your audience.",
+    delay: 400,
+  },
+  {
+    icon: "feather-bar-chart",
+    title: "Marketing",
+    description:
+      "Accelerate growth with tailored marketing campaigns designed to drive engagement and conversions.",
+    delay: 500,
+  },
+  {
+    icon: "feather-repeat",
+    title: "Post-Solution Follow-Up",
+    description:
+      "Enjoy ongoing support and insights to continuously improve performance and achieve lasting results.",
+    delay: 600,
   },
 ];
+
 
 export const services4 = [
   {

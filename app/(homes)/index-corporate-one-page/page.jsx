@@ -1,6 +1,6 @@
 import Copywrite from "@/components/footers/Copywrite";
 import Header5 from "@/components/headers/Header5";
-import Topbar from "@/components/headers/Topbar";
+import About from "@/components/common/About";
 import Brands from "@/components/homes/index-corporate-one-page/Brands";
 import Contact from "@/components/homes/index-corporate-one-page/Contact";
 import Hero from "@/components/homes/index-corporate-one-page/Hero";
@@ -14,21 +14,22 @@ export const metadata = {
     "Home Corporate One Page || Doob Business and Consulting React Nextjs Bootstrap5 Template",
   description: "Doob Business and Consulting React Nextjs Bootstrap5 Template",
 };
+
 export default function page() {
   return (
     <>
-      <Topbar />
       <Header5 />
       <div>
         <div className="rainbow-gradient-circle" />
         <div className="rainbow-gradient-circle theme-pink" />
       </div>
+      <Hero />
+      <About />
       <div className="rbt-separator-mid">
         <div className="container">
           <hr className="rbt-separator m-0" />
         </div>
       </div>
-      <Hero />
       <Service />
       <div className="rbt-separator-mid">
         <div className="container">

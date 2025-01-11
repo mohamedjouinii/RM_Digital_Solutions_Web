@@ -7,9 +7,9 @@ const items = [
   "Ipsum dolor sit amet consectetur adipisicing.",
   "Your teams progress with mobile app.",
 ];
-export default function About() {
+export default function About({ id }) {
   return (
-    <div className="rainbow-about-area rainbow-section-gap">
+    <div id={id} className="rainbow-about-area rainbow-section-gap">
       <div className="container">
         <div className="row row--30 align-items-center">
           <div className="col-lg-5">
