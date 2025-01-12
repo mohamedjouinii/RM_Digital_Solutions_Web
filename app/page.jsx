@@ -1,10 +1,10 @@
 import Copywrite from "@/components/footers/Copywrite";
 import Header5 from "@/components/headers/Header5";
-import Topbar from "@/components/headers/Topbar";
+import About from "@/components/common/About";
+
 import Brands from "@/components/homes/index-corporate-one-page/Brands";
 import Contact from "@/components/homes/index-corporate-one-page/Contact";
 import Hero from "@/components/homes/index-corporate-one-page/Hero";
-import Portfolio from "@/components/homes/index-corporate-one-page/Portfolio";
 import Service from "@/components/homes/index-corporate-one-page/Service";
 import Team from "@/components/homes/index-corporate-one-page/Team";
 import React from "react";
@@ -29,18 +29,28 @@ export default function page() {
         </div>
       </div>
       <Hero />
+      <About />
+            <div className="rbt-separator-mid">
+              <div className="container">
+                <hr className="rbt-separator m-0" />
+              </div>
+            </div>
       <Service />
       <div className="rbt-separator-mid">
         <div className="container">
           <hr className="rbt-separator m-0" />
         </div>
       </div>
-      <Portfolio />
+      
+                
+             
+     
       <div className="rbt-separator-mid">
         <div className="container">
           <hr className="rbt-separator m-0" />
         </div>
       </div>
+     
       <Brands />
       <div className="rbt-separator-mid">
         <div className="container">

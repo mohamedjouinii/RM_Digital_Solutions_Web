@@ -1,15 +1,19 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+
 const items = [
-  "Track your teams progress with mobile app.",
-  "Lorem ipsum dolor sit amet consectetur adipisicing.",
-  "Ipsum dolor sit amet consectetur adipisicing.",
-  "Your teams progress with mobile app.",
+  "Custom web development and ERP solutions to optimize business workflows and productivity.",
+  "Cutting-edge app development to drive operational efficiency and user engagement.",
+  "Strategic and advanced SEO to enhance online visibility and attract the right audience.",
+  "Comprehensive branding and design services to establish a strong and cohesive brand identity.",
+  "Tailored digital marketing strategies to amplify your brand's reach and impact.",
+  "Business consultancy and tools to accelerate growth and achieve market success.",
 ];
-export default function About({ id }) {
+
+export default function About() {
   return (
-    <div id={id} className="rainbow-about-area rainbow-section-gap">
+    <div id="about" className="rainbow-about-area rainbow-section-gap">
       <div className="container">
         <div className="row row--30 align-items-center">
           <div className="col-lg-5">
@@ -35,14 +39,16 @@ export default function About({ id }) {
             >
               <div className="section-title">
                 <h4 className="subtitle">
-                  <span className="theme-gradient">Corporate About.</span>
+                  <span className="theme-gradient"> About RM Digital Solutions </span>
                 </h4>
-                <h2 className="title mt--10">About Our Business.</h2>
+                <h2 className="title mt--10">
+                  Your Partner for Innovation and Growth.
+                </h2>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
-                  quod autem sequi reprehenderit labore consequuntur excepturi
-                  voluptatibus omnis similique qui unde eligendi tempora, ea at,
-                  laudantium nostrum minus pariatur quasi!
+                  At RM Digital Solutions, we are committed to helping businesses thrive in an ever-evolving digital world. 
+                  Our expertise spans across web development, ERP solutions, advanced SEO, branding, and design. 
+                  We also offer comprehensive digital marketing strategies and startup consultancy, empowering 
+                  businesses to achieve their goals and build a sustainable future.
                 </p>
                 <ul className="list-icon">
                   {items.map((item, index) => (
@@ -55,7 +61,12 @@ export default function About({ id }) {
                   ))}
                 </ul>
                 <div className="read-more-btn mt--40">
-                  <Link className="btn-default btn-icon" href={"/about"}>
+                  <Link 
+                      className="btn-default"
+                     
+                      href="#contact"
+                     
+                    >
                     More About Us <i className="icon feather-arrow-right" />
                   </Link>
                 </div>
